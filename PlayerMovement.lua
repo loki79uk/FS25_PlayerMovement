@@ -13,8 +13,6 @@ PlayerMovement.menuItems = {
 	'swimmingSpeed',
 	'swimmingSprintSpeed',
 	'crouchingSpeed',
-	'flyingSpeed',
-	'flyingFastSpeed',
 	'gravity',
 	'jumpForce',
 	'acceleration',
@@ -28,8 +26,6 @@ PlayerMovement.fallingSpeed = 3
 PlayerMovement.swimmingSpeed = 3
 PlayerMovement.swimmingSprintSpeed = 5
 PlayerMovement.crouchingSpeed = 3
-PlayerMovement.flyingSpeed = 8
-PlayerMovement.flyingFastSpeed = 100
 PlayerMovement.gravity = 9.81
 PlayerMovement.jumpForce = 5.5
 PlayerMovement.acceleration = 30
@@ -92,8 +88,8 @@ function PlayerMovement:doUpdate(dt)
 		local function updateValue(variable, class, value, noPrint)
 			
 			local function compareFloats(a, b)
-				local epsilon = 0.000001
-				return math.abs(a - b) < epsilon
+				local epsilon = 0.00001
+				return math.abs((1.0*a) - (1.0*b)) < epsilon
 			end
 			
 			if not compareFloats(class[value], PlayerMovement[variable]) then
@@ -110,8 +106,6 @@ function PlayerMovement:doUpdate(dt)
 		updateValue('crouchingSpeed', PlayerStateCrouch, 'MAXIMUM_MOVE_SPEED')
 		updateValue('swimmingSpeed', PlayerStateSwim, 'MAXIMUM_MOVE_SPEED')
 		updateValue('swimmingSprintSpeed', PlayerStateSwim, 'MAXIMUM_SPRINT_SPEED')
-		updateValue('flyingSpeed', PlayerMover, 'FLIGHT_MOVE_SPEED')
-		updateValue('flyingFastSpeed', PlayerMover, 'FLIGHT_MOVE_SPEED_FAST')
 		updateValue('gravity', PlayerMover, 'GRAVITY')
 		updateValue('jumpForce', PlayerStateJump, 'JUMP_UPFORCE')
 		updateValue('acceleration', PlayerMover, 'ACCELERATION')
@@ -248,34 +242,6 @@ PlayerMovement.SETTINGS.swimmingSprintSpeed = {
 		"128 m/s",
 	}
 }
-PlayerMovement.SETTINGS.flyingSpeed = {
--- PlayerMovement.flyingSpeed = 8
-	['default'] = 2,
-	['permission'] = 'playerMovement',
-	['values'] = {2, 4, 8, 16, 32, 64},
-	['strings'] = {
-		"2 m/s",
-		"4 m/s",
-		"8 m/s",
-		"16 m/s",
-		"32 m/s",
-		"64 m/s",
-	}
-}
-PlayerMovement.SETTINGS.flyingFastSpeed = {
--- PlayerMovement.flyingFastSpeed = 100
-	['default'] = 2,
-	['permission'] = 'playerMovement',
-	['values'] = {4, 8, 16, 32, 64, 128},
-	['strings'] = {
-		"4 m/s",
-		"8 m/s",
-		"16 m/s",
-		"32 m/s",
-		"64 m/s",
-		"128 m/s",
-	}
-}
 PlayerMovement.SETTINGS.gravity = {
 -- PlayerMovement.gravity = 9.81
 	['default'] = 3,
@@ -321,7 +287,6 @@ PlayerMovement.SETTINGS.acceleration = {
 		"500%",
 	}
 }
-
 PlayerMovement.SETTINGS.deceleration = {
 -- PlayerMovement.deceleration = 10
 	['default'] = 3,
