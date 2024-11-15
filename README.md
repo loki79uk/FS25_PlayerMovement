@@ -1,2 +1,5 @@
 # FS25_PlayerMovement
-Mod for FS25. Please download latest release below.
+
+New mod for FS25 "Player Movement Settings" - to give customisable control for the player movement speed, jump height, etc.
+
+Please be patient - I hope to submit this to GIANTS before Monday 18th November.
