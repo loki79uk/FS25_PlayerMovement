@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+	<author>loki_79</author>
+    <version>1.0.0.0</version>
+	<title>
+		<en>Player Movement Settings</en>
+		<de>Einstellbare Spielerbewegung</de>
+	</title>
+
+	<description>
+<en><![CDATA[Description:
+This mod gives you control over player movement settings, such as speed and jump height.  All available settings are configurable using the mod settings file.
+
+Hotkeys:
+- Settings file located in FarmingSimulator2025\modSettings\PlayerMovement.xml
+- Reload changed settings from in game using the 'playerMovementLoadSettings' console command
+
+Settings:
+- Walking Speed
+- Running Speed
+- Falling Speed
+- Swimming Speed
+- Swimming Sprint Speed
+- Crouching Speed
+- Flying Speed
+- Flying Fast Speed
+- Gravity
+- Jump Force
+- Acceleration
+- Deceleration
+
+GitHub-Link: https://github.com/loki79uk/FS25_PlayerMovement
+]]>
+</en>
+<de><![CDATA[Beschreibung:
+Diese Mod gibt dir die Kontrolle über die Bewegungseinstellungen des Spielers, wie Geschwindigkeit und Sprunghöhe.  Alle verfügbaren Einstellungen sind über die Mod-Einstellungsdatei konfigurierbar.
+
+Tastenkombinationen:
+- Die Einstellungsdatei befindet sich in FarmingSimulator2025\modSettings\PlayerMovement.xml
+- Geänderte Einstellungen können im Spiel mit dem Konsolenbefehl 'playerMovementLoadSettings' neu geladen werden
+
+Einstellungen:
+- Gehgeschwindigkeit
+- Renngeschwindigkeit
+- Fallgeschwindigkeit
+- Normale Schwimmgeschwindigkeit
+- Schnelle Schwimmgeschwindigkeit
+- Geduckte Geschwindigkeit
+- Normale Fluggeschwindigkeit
+- Schnelle Fluggeschwindigkeit
+- Schwerkraft
+- Sprungkraft
+- Beschleunigung
+- Abbremsung
+
+GitHub-Link: https://github.com/loki79uk/FS25_PlayerMovement
+]]>
+</de>
+	</description>
+
+	<multiplayer supported="true" />
+	<iconFilename>icon_PlayerMovement.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="PlayerMovement.lua" />
+	</extraSourceFiles>
+	
+	<l10n filenamePrefix="language/l10n"/>
+	
+</modDesc>
