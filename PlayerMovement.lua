@@ -113,7 +113,7 @@ function PlayerMovement:doUpdate(dt)
 	
 		-- SHOW THE SPEED IN F1 MENU
 		if PlayerMovement.showDebug then
-			g_currentMission:addExtraPrintText(string.format("PLAYER SPEED: %.2f ", player.getSpeed() or 0) .. " m/s")
+			g_currentMission:addExtraPrintText(g_i18n:getText("ui_player_speed") .. string.format(": %.2f ", player.getSpeed() or 0) .. " m/s")
 		end
 		
 		-- UPDATE THE JUMP SPEED TO ALWAYS MATCH THE RUNNING/WALKING SPEED
