@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
 	<texts>
-		<text name="ui_player_speed" text="Player Speed"/>
+		<text name="ui_player_speed" text="Скорость игрока"/>
     </texts>
 </l10n>
