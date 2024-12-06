@@ -1,53 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="92">
+<modDesc descVersion="93">
 	<author>loki_79</author>
     <version>1.0.0.0</version>
 	<title>
-		<en>Player Movement Settings</en>
-		<de>Einstellbare Spielerbewegung</de>
+		<en>Player Movement</en>
+		<de>Spielerbewegung</de>
 	</title>
 
 	<description>
 <en><![CDATA[Description:
-This mod gives you control over player movement settings, such as speed and jump height.  All available settings are configurable using the mod settings file.
-
-Hotkeys:
-- Settings file located in FarmingSimulator2025\modSettings\PlayerMovement.xml
-- Reload changed settings from in game using the 'playerMovementLoadSettings' console command
+This mod gives you control over player movement settings, such as speed and jump height. It also modifies the inputs to feel more responsive. All settings are configurable using the in game settings menu.
 
 Settings:
-- Walking Speed
-- Running Speed
-- Falling Speed
-- Swimming Speed
-- Swimming Sprint Speed
-- Crouching Speed
-- Gravity
-- Jump Force
-- Acceleration
-- Deceleration
+- Walking Multiplier
+- Running Multiplier
+- Jump Multiplier
 
 GitHub-Link: https://github.com/loki79uk/FS25_PlayerMovement
 ]]>
 </en>
 <de><![CDATA[Beschreibung:
-Diese Mod gibt dir die Kontrolle über die Bewegungseinstellungen des Spielers, wie Geschwindigkeit und Sprunghöhe.  Alle verfügbaren Einstellungen sind über die Mod-Einstellungsdatei konfigurierbar.
-
-Tastenkombinationen:
-- Die Einstellungsdatei befindet sich in FarmingSimulator2025\modSettings\PlayerMovement.xml
-- Geänderte Einstellungen können im Spiel mit dem Konsolenbefehl 'playerMovementLoadSettings' neu geladen werden
+Dieser Mod gibt dir Kontrolle über die Bewegungseinstellungen des Spielers, wie Geschwindigkeit und Sprunghöhe. Er passt außerdem die Eingaben an, um sich reaktionsschneller anzufühlen. Alle Einstellungen können im Ingame-Einstellungsmenü konfiguriert werden.
 
 Einstellungen:
-- Gehgeschwindigkeit
-- Renngeschwindigkeit
-- Fallgeschwindigkeit
-- Normale Schwimmgeschwindigkeit
-- Schnelle Schwimmgeschwindigkeit
-- Geduckte Geschwindigkeit
-- Schwerkraft
-- Sprungkraft
-- Beschleunigung
-- Abbremsung
+- Gehen-Multiplikator
+- Laufen-Multiplikator
+- Springen-Multiplikator
 
 GitHub-Link: https://github.com/loki79uk/FS25_PlayerMovement
 ]]>

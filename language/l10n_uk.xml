@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="menu_PlayerMovement_TITLE" text="Player Movement"/>
+		<text name="ui_player_speed" text="Player Speed"/>
+    </texts>
+</l10n>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
 	<texts>
+		<text name="menu_PlayerMovement_TITLE" text="Player Movement"/>
+		<text name="setting_playermovement_walkingMultiplier" text="Gehen-Multiplikator"/>
+		<text name="tooltip_playermovement_walkingMultiplier" text="Ein Skalierungsfaktor für die Gehgeschwindigkeit"/>
+		<text name="setting_playermovement_runningMultiplier" text="Laufen-Multiplikator"/>
+		<text name="tooltip_playermovement_runningMultiplier" text="Ein Skalierungsfaktor für die Laufgeschwindigkeit"/>
+		<text name="setting_playermovement_jumpMultiplier" text="Springen-Multiplikator"/>
+		<text name="tooltip_playermovement_jumpMultiplier" text="Ein Skalierungsfaktor für die Sprunghöhe des Spielers"/>
+		<text name="setting_playermovement_showDebug" text="Debug anzeigen"/>
+		<text name="tooltip_playermovement_showDebug" text="Zeigt die aktuelle Geschwindigkeit im F1-Menü an und schreibt Debug-Informationen in die Logdatei"/>
 		<text name="ui_player_speed" text="Spielertempo"/>
     </texts>
 </l10n>
