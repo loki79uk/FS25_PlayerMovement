@@ -2,14 +2,14 @@
 <l10n>
 	<texts>
 		<text name="menu_PlayerMovement_TITLE" text="Player Movement"/>
-		<text name="setting_playermovement_walkingMultiplier" text="Walking Multiplier"/>
-		<text name="tooltip_playermovement_walkingMultiplier" text="A scaling factor for walking speed"/>
-		<text name="setting_playermovement_runningMultiplier" text="Running Multiplier"/>
-		<text name="tooltip_playermovement_runningMultiplier" text="A scaling factor for running speed"/>
-		<text name="setting_playermovement_jumpMultiplier" text="Jump Multiplier"/>
-		<text name="tooltip_playermovement_jumpMultiplier" text="A scaling factor for how high the player can jump"/>
-		<text name="setting_playermovement_showDebug" text="Show Debug"/>
-		<text name="tooltip_playermovement_showDebug" text="Show the current speed in F1 menu and write debugging information to the log file"/>
-		<text name="ui_player_speed" text="Player Speed"/>
-    </texts>
+		<text name="setting_playermovement_walkingMultiplier" text="Mnożnik chodu"/>
+		<text name="tooltip_playermovement_walkingMultiplier" text="Współczynnik skalowania prędkości chodu"/>
+		<text name="setting_playermovement_runningMultiplier" text="Mnożnik biegu"/>
+		<text name="tooltip_playermovement_runningMultiplier" text="Współczynnik skalowania prędkości biegu"/>
+		<text name="setting_playermovement_jumpMultiplier" text="Mnożnik skoku"/>
+		<text name="tooltip_playermovement_jumpMultiplier" text="Współczynnik skalowania wysokości skoku gracza"/>
+		<text name="setting_playermovement_showDebug" text="Pokaż debugowanie"/>
+		<text name="tooltip_playermovement_showDebug" text="Wyświetla bieżącą prędkość w menu F1 i zapisuje informacje debugowania do pliku logów"/>
+		<text name="ui_player_speed" text="Prędkość gracza"/>
+	</texts>
 </l10n>
