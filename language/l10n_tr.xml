@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
 	<texts>
+		<text name="menu_PlayerMovement_TITLE" text="Oyuncu Hareketi"/>
+		<text name="setting_playermovement_walkingMultiplier" text="Yürüyüş Çarpanı"/>
+		<text name="tooltip_playermovement_walkingMultiplier" text="Yürüme hızı için bir ölçeklendirme faktörü"/>
+		<text name="setting_playermovement_runningMultiplier" text="Koşu Çarpanı"/>
+		<text name="tooltip_playermovement_runningMultiplier" text="Koşu hızı için bir ölçeklendirme faktörü"/>
+		<text name="setting_playermovement_jumpMultiplier" text="Zıplama Çarpanı"/>
+		<text name="tooltip_playermovement_jumpMultiplier" text="Oyuncunun ne kadar yükseğe zıplayabileceğine ilişkin bir ölçeklendirme faktörü"/>
+		<text name="setting_playermovement_showDebug" text="Hata Ayıklamayı Göster"/>
+		<text name="tooltip_playermovement_showDebug" text="F1 menüsünde mevcut hızı göster ve hata ayıklama bilgilerini günlük dosyasına yazdır"/>
 		<text name="ui_player_speed" text="Oyuncu Hızı"/>
     </texts>
 </l10n>
